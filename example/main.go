@@ -14,5 +14,7 @@ func main() {
 	switch method {
 	case "normal":
 		RunNormal()
+	case "conn_reuse":
+		RunReuseConn()
 	}
 }
